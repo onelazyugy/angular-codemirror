@@ -1,0 +1,12 @@
+<p>Run A Query:</p>
+
+<ngx-codemirror
+  [(ngModel)]="content"
+  [options]="{
+    lineNumbers: true,
+    theme: 'material',
+    mode: 'sql'
+  }"
+></ngx-codemirror>
+<br />
+<button>QUERY</button>
