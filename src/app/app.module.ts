@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CodemirrorModule } from '@ctrl/ngx-codemirror';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppAngularMaterialModule } from './app-angular-material.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     CodemirrorModule,
     BrowserAnimationsModule,
+    AppAngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

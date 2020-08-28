@@ -1,5 +1,4 @@
-<p>Run A Query:</p>
-
+<div>Run A Query:</div>
 <ngx-codemirror
   [(ngModel)]="content"
   [options]="{
@@ -9,4 +8,7 @@
   }"
 ></ngx-codemirror>
 <br />
-<button>QUERY</button>
+<button mat-raised-button color="primary" (click)="query()">RUN QUERY</button> &nbsp;
+<button mat-raised-button color="primary" (click)="format()">FORMAT</button>
+<pre>{{response}}</pre>
+
